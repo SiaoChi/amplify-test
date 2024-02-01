@@ -5,6 +5,8 @@
 2. Finish deploy File which should be docker 
 
 ### amplify config file
+We are provisioning your build environment with a Docker image on a host with 4 vCPU, 7GB memory. Each build image gets its own host instance, ensuring all resources are isolated. The contents of our Dockerfile are displayed below for your information.
+
 ```
 version: 1
 frontend:
