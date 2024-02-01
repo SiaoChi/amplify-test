@@ -2,10 +2,9 @@
 
 ## Deploy frontend project
 1. Connect to github repo
-2. Finish deploy File which should be docker
+2. Finish deploy File which should be docker 
 
-Below is the sample dockerfile
-
+### amplify config file
 ```
 version: 1
 frontend:
@@ -22,7 +21,7 @@ frontend:
     paths: []
 ```
 
-another sample
+### amplify config file , another sample
 ```
 version: 1
 backend:
